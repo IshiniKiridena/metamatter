@@ -12,46 +12,48 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-    title: {
-        default: "Pixel.io – Digital Agency Template | PrebuiltUI",
-        template: "%s | Pixel.io",
-    },
+  title: {
+    default: "MetaMatter Labs – Advanced Materials & Smart Infrastructure Research",
+    template: "%s | MetaMatter Labs",
+  },
+  description:
+    "MetaMatter Labs showcases cutting-edge research in metamaterials, smart concrete, additive manufacturing, and self-sensing infrastructure systems led by Roshira Premadasa at New Mexico State University.",
+  keywords: [
+    "MetaMatter Labs",
+    "Roshira Premadasa",
+    "metamaterials research",
+    "smart concrete",
+    "self-sensing infrastructure",
+    "additive manufacturing construction",
+    "digital twins engineering",
+    "civil engineering research",
+    "structural health monitoring",
+    "New Mexico State University",
+  ],
+  authors: [{ name: "Roshira Premadasa" }],
+  creator: "Roshira Premadasa",
+  publisher: "MetaMatter Labs",
+
+  openGraph: {
+    title: "MetaMatter Labs – Advanced Materials & Infrastructure Research",
     description:
-        "Pixel.io is a modern digital agency template by PrebuiltUI, built for startups and growing businesses. Includes discovery, UI/UX design, development, pricing plans, FAQs, and conversion-focused sections.",
-    keywords: [
-        "Pixel.io",
-        "PrebuiltUI",
-        "digital agency template",
-        "Next.js agency website",
-        "UI UX agency",
-        "startup website template",
-        "web development services",
-        "design and development agency",
-    ],
-    authors: [{ name: "PrebuiltUI" }],
-    creator: "PrebuiltUI",
-    publisher: "PrebuiltUI",
+      "Explore research in metamaterials, smart infrastructure, biomedical devices, and additive manufacturing systems developed at MetaMatter Labs.",
+    siteName: "MetaMatter Labs",
+    type: "website",
+  },
 
-    openGraph: {
-        title: "Pixel.io – Digital Agency Template by PrebuiltUI",
-        description:
-            "Launch faster with Pixel.io, a modern digital agency template featuring strategy, design, development, pricing plans, and FAQs.",
-        siteName: "PrebuiltUI",
-        type: "website",
-    },
+  twitter: {
+    card: "summary_large_image",
+    title: "MetaMatter Labs – Research & Innovation",
+    description:
+      "A research portfolio highlighting innovations in smart materials, infrastructure systems, and next-generation engineering technologies.",
+    creator: "@metamatterlabs",
+  },
 
-    twitter: {
-        card: "summary_large_image",
-        title: "Pixel.io – Digital Agency Template",
-        description:
-            "A conversion-focused digital agency template built with Next.js. Perfect for startups, teams, and scalable brands.",
-        creator: "@prebuiltui",
-    },
-
-    robots: {
-        index: true,
-        follow: true,
-    },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -66,7 +68,7 @@ export default function RootLayout({
                 <LenisScroll />
                 <Navbar />
                 {children}
-                {/* <Footer /> */}
+                <Footer />
             </body>
         </html>
     );
