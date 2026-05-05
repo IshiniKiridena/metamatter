@@ -5,6 +5,7 @@ import Team from "@/components/Team";
 import Publications from "@/components/Publications";
 import Conference from "@/components/Conference";
 import Patents from "@/components/Patents";
+import ResearchInterests from "@/components/ResearchInterests";
 
 
 export default function Page() {
@@ -16,6 +17,7 @@ export default function Page() {
             <Publications />
             <Conference />
             <Patents />
+            <ResearchInterests />
         </>
     );
 }

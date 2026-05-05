@@ -15,6 +15,7 @@ export default function Navbar() {
         { name: 'Publications', href: '/#publications' },
         { name: 'Conference Presentations', href: '/#conference-presentations'},
         { name: 'Patents', href: '/#patents'},
+        { name: 'Research Interests', href: '/#research-interests'}
     ];
 
     return (
