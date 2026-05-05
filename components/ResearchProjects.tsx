@@ -11,32 +11,32 @@ export default function ResearchProjects() {
         "Tunable Plug-and-Play Meta-Nanogenerators for Multi-Range Force Sensing",
       desc: "This project develops a modular meta-nanogenerator system that integrates triboelectric nanogenerators within additively manufactured mechanical metamaterial architectures to enable self-powered, multi-range force sensing. By tailoring geometric parameters through additive manufacturing, the sensing range and sensitivity can be reconfigured without altering materials or electronics. The plug-and-play design enables scalable deployment in structural health monitoring, smart infrastructure, and adaptive load sensing applications.",
       image:
-        "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800",
+        "/r1.png",
     },
     {
       title: "Digital Shape-Morphing Thermo-mechanical Metamaterials",
       desc: "This project develops additively manufactured architected mechanical metamaterials capable of programmable shape morphing through thermo-mechanical coupling. By exploiting multi-stable geometries and temperature-dependent material behavior, the systems transition between discrete mechanical states that can be digitally encoded to enable mechanical logic, adaptive load redistribution, and autonomous structural reconfiguration. The resulting thermo-mechanical systems provide a pathway toward adaptive infrastructure components, deployable structures, and mechanically programmable materials.",
       image:
-        "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800",
+        "r2.png",
     },
     {
       title: "Self-Sensing Cementitious Composites with Architected Aggregates",
       desc: " This project develops cementitious composites with inherent sensing capabilities through the integration of additively manufactured architected lattice structures as functional coarse aggregates. The research investigates architected plastic aggregates to tailor mechanical performance, reduce structural weight, and improve material efficiency; examines how additive manufacturing parameters influence the mechanical behavior and durability of printed aggregates; and enables self-sensing smart concrete through conductive matrices and triboelectric transduction. By linking aggregate architecture, fabrication processes, and electromechanical functionality, the work advances sustainable, load-bearing concrete systems capable of real-time structural state monitoring and extended service life.",
       image:
-        "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800",
+        "r3.png",
     },
     {
       title:
         "Architected Plate Lattice Systems for Lightweight and High-Performance Structures",
       desc: "This project investigates architected plate lattice systems as a material-efficient strategy for developing lightweight structural components with enhanced stiffness, strength-to-weight performance, and energy absorption capacity. The research explores plate lattice architectures across multiple material systems, including polymeric, composite, and cementitious implementations, to understand the influence of geometry, material selection, and fabrication methods on mechanical performance and failure behavior. By enabling tunable structural response and improved material efficiency, these systems support resilient infrastructure, protective structures, and multifunctional structural applications.",
-      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800",
+      image: "r4.png",
     },
     {
       title:
         "Wearable Electrochemical Sensing Systems for Cystic Fibrosis Screening",
       desc: "This project develops a wearable electrochemical sensing platform for rapid, non-invasive screening of cystic fibrosis through sweat analysis. The system integrates microfluidic sweat collection, ion-selective sensing, and portable signal acquisition to enable real-time chloride detection for early diagnosis. By emphasizing low-cost fabrication, user-friendly operation, and point-of-care deployment, the technology supports accessible screening and continuous monitoring in clinical and remote healthcare settings.This project develops a wearable electrochemical sensing platform for rapid, non-invasive screening of cystic fibrosis through sweat analysis. The system integrates microfluidic sweat collection, ion-selective sensing, and portable signal acquisition to enable real-time chloride detection for early diagnosis. By emphasizing low-cost fabrication, user-friendly operation, and point-of-care deployment, the technology supports accessible screening and continuous monitoring in clinical and remote healthcare settings.",
       image:
-        "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=800",
+        "r5.png",
     },
     {
       title: "Metamaterial-Based Self-Powered Strain Sensing Systems",
@@ -92,7 +92,7 @@ export default function ResearchProjects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-40 object-cover"
+                  className="w-auto h-auto object-cover"
                 />
               )}
 
