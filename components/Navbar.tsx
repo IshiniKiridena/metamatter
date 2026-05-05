@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 'use client';
 import { MenuIcon, XIcon } from 'lucide-react';
 import { PrimaryButton } from './Buttons';
@@ -11,7 +12,7 @@ export default function Navbar() {
         { name: 'Home', href: '/#' },
         { name: 'Research Projects', href: '/#research-projects' },
         { name: 'Team', href: '/#team' },
-        { name: 'FAQ', href: '/#faq' },
+        { name: 'Publications', href: '/#publications' },
     ];
 
     return (
