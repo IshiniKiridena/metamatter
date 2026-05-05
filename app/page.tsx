@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import ResearchProjects from "@/components/ResearchProjects";
 import Team from "@/components/Team";
 import Publications from "@/components/Publications";
-import CTA from "@/components/CTA";
+import Conference from "@/components/Conference";
 
 
 export default function Page() {
@@ -13,7 +13,7 @@ export default function Page() {
             <ResearchProjects />
             <Team />
             <Publications />
-            <CTA />
+            <Conference />
         </>
     );
 }
