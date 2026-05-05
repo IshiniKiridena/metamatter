@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 
 interface TitleProps {
     title?: string;
     heading?: string;
-    description?: string;
+    description?: string | ReactNode;
 }
 
 export default function Title({ title, heading, description }: TitleProps) {
