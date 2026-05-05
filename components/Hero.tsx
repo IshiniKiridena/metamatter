@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { ArrowRightIcon, PlayIcon, ZapIcon, CheckIcon } from "lucide-react";
+import { ArrowRightIcon, PlayIcon, ZapIcon, CheckIcon, EyeIcon } from "lucide-react";
 import { PrimaryButton, GhostButton } from "./Buttons";
 import { motion } from "framer-motion";
 
@@ -125,7 +125,7 @@ export default function Hero() {
 
                 <a href="#publications" className="w-full sm:w-auto">
                   <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
-                    <PlayIcon className="size-4" />
+                    <EyeIcon className="size-4" />
                     View Publications
                   </GhostButton>
                 </a>
@@ -199,7 +199,7 @@ export default function Hero() {
                       href="/#research-projects"
                       className="inline-flex items-center gap-2 rounded-full px-4 py-2 bg-white/6 backdrop-blur-sm hover:bg-white/10 transition focus:outline-none"
                     >
-                      <PlayIcon className="size-4" />
+                      <EyeIcon className="size-4" />
                       <span className="text-xs">View Projects</span>
                     </a>
                   </div>
