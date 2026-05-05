@@ -76,7 +76,7 @@ export default function Contact() {
               {/* University Logo */}
               <div className="flex items-center justify-center">
                 <img
-                  src="/nm-logo.png"
+                  src="/nm.png"
                   alt="New Mexico State University"
                   className="w-20 md:w-24 object-contain opacity-90"
                 />

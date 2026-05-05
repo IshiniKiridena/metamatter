@@ -53,7 +53,7 @@ export default function Team() {
                             <div className="space-y-3 text-sm text-gray-300">
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/nm-logo.png" className="w-6 h-6" />
+                                    <img src="/nm.png" className="w-6 h-6" />
                                     <div>
                                         Ph.D. in Civil Engineering <br />
                                         <span className="text-gray-400">New Mexico State University (2023–Present)</span>
@@ -61,7 +61,7 @@ export default function Team() {
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/nm-logo.png" className="w-6 h-6" />
+                                    <img src="/nm.png" className="w-6 h-6" />
                                     <div>
                                         M.Sc. in Civil Engineering <br />
                                         <span className="text-gray-400">New Mexico State University (2025)</span>
