@@ -13,7 +13,8 @@ export default function Navbar() {
         { name: 'Research Projects', href: '/#research-projects' },
         { name: 'Team', href: '/#team' },
         { name: 'Publications', href: '/#publications' },
-        { name: 'Conference Presentations', href: '/#conference-presentations'}
+        { name: 'Conference Presentations', href: '/#conference-presentations'},
+        { name: 'Patents', href: '/#patents'},
     ];
 
     return (

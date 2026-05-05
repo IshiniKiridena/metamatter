@@ -4,6 +4,7 @@ import ResearchProjects from "@/components/ResearchProjects";
 import Team from "@/components/Team";
 import Publications from "@/components/Publications";
 import Conference from "@/components/Conference";
+import Patents from "@/components/Patents";
 
 
 export default function Page() {
@@ -14,6 +15,7 @@ export default function Page() {
             <Team />
             <Publications />
             <Conference />
+            <Patents />
         </>
     );
 }
