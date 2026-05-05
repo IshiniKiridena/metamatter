@@ -138,9 +138,9 @@ export default function ResearchInterests() {
           className="mt-12"
         >
           <img
-            src="/research-visual.jpg"
+            src="/research-visual.png"
             alt="Research visualization"
-            className="w-full h-64 md:h-80 object-cover rounded-2xl border border-white/10"
+            className="w-full h-auto md:h-auto object-cover rounded-2xl border border-white/10 bg-cyan-50"
           />
         </motion.div>
       </div>

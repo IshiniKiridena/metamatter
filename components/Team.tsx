@@ -34,7 +34,7 @@ export default function Team() {
                         {/* Profile */}
                         <div className="flex flex-col items-center text-center mb-6">
                             <img
-                                src="https://via.placeholder.com/120"
+                                src="/team.png"
                                 alt="Roshira Premadasa"
                                 className="w-28 h-28 rounded-full object-cover mb-4 border border-white/10"
                             />
