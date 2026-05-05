@@ -66,7 +66,7 @@ export default function RootLayout({
                 <LenisScroll />
                 <Navbar />
                 {children}
-                <Footer />
+                {/* <Footer /> */}
             </body>
         </html>
     );
