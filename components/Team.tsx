@@ -38,9 +38,9 @@ export default function Team() {
                                 alt="Roshira Premadasa"
                                 className="w-28 h-28 rounded-full object-cover mb-4 border border-white/10"
                             />
-                            <h3 className="text-xl font-semibold">Roshira Premadasa</h3>
+                            <h3 className="text-xl font-semibold">Roshira Premadasa, PhD</h3>
                             <p className="text-gray-400 text-sm">
-                                Graduate Research Assistant <br />
+                                Assistant Professor <br />
                                 Department of Civil and Environmental Engineering <br />
                                 New Mexico State University
                             </p>
@@ -56,7 +56,7 @@ export default function Team() {
                                     <img src="/nm.png" className="w-6 h-6" />
                                     <div>
                                         Ph.D. in Civil Engineering <br />
-                                        <span className="text-gray-400">New Mexico State University (2023–Present)</span>
+                                        <span className="text-gray-400">New Mexico State University (2023–2026)</span>
                                     </div>
                                 </div>
 
@@ -86,7 +86,9 @@ export default function Team() {
                             <ul className="space-y-2 text-sm text-gray-300">
                                 <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> Bhatti Family Graduate Assistant Award (2026)</li>
                                 <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> First Place, 3-Minute-Thesis Competition (2026)</li>
+                                <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> Bhatti Family Graduate Assistant Award (2025)</li>
                                 <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> Distinguished Graduate Assistant Award – Doctoral (2025)</li>
+                                <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> Bhatti Family Graduate Assistant Award (2024)</li>
                                 <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> First Place, Bold Idea Challenge (2024)</li>
                                 <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> Second Place, Aggie Shark Tank (2024)</li>
                                 <li className="flex gap-2"><Check className="w-4 h-4 text-indigo-400" /> NMSU Outstanding Graduate Student Fellowship (2024)</li>
@@ -95,14 +97,27 @@ export default function Team() {
                         </div>
 
                         {/* Professional Service */}
-                        <div>
+                        <div className="mb-6">
                             <h4 className="text-md font-semibold mb-3">Professional Service</h4>
 
                             <p className="text-sm text-gray-300">
                                 Journal Reviewer — Measurement Journal / Elsevier
                             </p>
                         </div>
+                        
+                        <br></br>
 
+                        {/* Join the Team */}
+                        <div id="join_team" className="flex flex-col items-center text-center mb-6">
+                            <h3 className="text-xl font-semibold">Join the Team</h3>
+                            <br></br>
+                            <h4 className="text-md font-semibold mb-3">
+                                MetaMatter Lab is looking for PhD/Masters applicants, visiting scholars and undergraduate research assistants. If you are interested in joining, please send your CV and transcripts to Dr. Premadasa at{' '}
+                                <a href="mailto:roshirap@nmsu.edu" className="text-indigo-400 hover:underline">
+                                    roshirap@nmsu.edu
+                                </a>.
+                            </h4>
+                        </div>
                     </motion.div>
                 </div>
             </div>
