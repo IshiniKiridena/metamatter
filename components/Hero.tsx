@@ -95,7 +95,7 @@ export default function Hero() {
                   delay: 0.2,
                 }}
               >
-                MetaMatter Labs is a research initiative led by Roshira
+                MetaMatter Labs is a research initiative led by Dr. Roshira
                 Premadasa, focused on smart materials, self-powered systems, and
                 next-generation infrastructure. The work integrates
                 metamaterials, additive manufacturing, and AI-driven systems to
@@ -116,12 +116,12 @@ export default function Hero() {
                   delay: 0.3,
                 }}
               >
-                <a href="#research-projects" className="w-full sm:w-auto">
+                {/* <a href="#research-projects" className="w-full sm:w-auto">
                   <PrimaryButton className="max-sm:w-full py-3 px-7">
                     Explore Research
                     <ArrowRightIcon className="size-4" />
                   </PrimaryButton>
-                </a>
+                </a> */}
 
                 <a href="#publications" className="w-full sm:w-auto">
                   <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
@@ -129,6 +129,14 @@ export default function Hero() {
                     View Publications
                   </GhostButton>
                 </a>
+
+                <a href="#join_team" className="w-full sm:w-auto">
+                  <PrimaryButton className="max-sm:w-full py-3 px-7">
+                    Join the Team
+                    <ArrowRightIcon className="size-4" />
+                  </PrimaryButton>
+                </a>
+
               </motion.div>
 
               <motion.div
